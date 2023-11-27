@@ -1,0 +1,22 @@
+body{
+  margin: 0;
+  background-color:#f1f3f5;
+}
+
+.fade-enter-active, .fade-leave-active {
+  transition: opacity .5s;
+}
+.fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+  opacity: 0;
+}
+
+
+.title_info{
+  height: 32px;
+  padding: 20px 0 20px 0;
+  font-size: 24px;
+  color: #222;
+  font-weight: 600;
+  margin-top: 20px;
+  line-height: 32px;
+}
